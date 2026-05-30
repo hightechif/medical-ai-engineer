@@ -1,0 +1,50 @@
+[project]
+name = "medical-ai-engineer"
+version = "0.1.0"
+description = "Learning resources and portfolio for transition to Medical AI Engineer"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "loguru",
+    "scikit-learn",
+    "tinygrad",
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "opencv-python",
+    "pydicom",
+    "nibabel",
+    "simpleitk",
+    "monai",
+    "qdrant-client",
+    "openai",
+    "transformers",
+    "huggingface_hub",
+    "langgraph",
+    "crewai",
+    "onnx",
+    "onnxruntime",
+    "coremltools",
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "pydantic",
+    "mlflow",
+    "langsmith",
+    "ipykernel",
+    "jupyter"
+]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true

@@ -1,3 +1,4 @@
 Every Python file MUST use complete static type hinting for `mypy` compliance.
 Prioritize NumPy vectorization over explicit loops for mathematical operations.
-Implementations MUST explore/utilize 3 core frameworks alongside NumPy: TensorFlow, PyTorch, and TinyGrad.
+Implementations MUST explore/utilize 1 core frameworks alongside NumPy: TinyGrad.
+Use UV for python package management. Use FastAPI and SQLAlchemy when developing a backend service.
