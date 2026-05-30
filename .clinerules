@@ -1,0 +1,3 @@
+Every Python file MUST use complete static type hinting for `mypy` compliance.
+Prioritize NumPy vectorization over explicit loops for mathematical operations.
+Implementations MUST explore/utilize 3 core frameworks alongside NumPy: TensorFlow, PyTorch, and TinyGrad.
